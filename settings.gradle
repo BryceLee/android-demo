@@ -1,0 +1,1 @@
+include ':app', ':bmodule', ':mylibrary', ':demo', ':javademo', ':avdemo', ':lanuchmode', ':httpdemo', ':jetpacklearning', ':windowsoftinputdemo', ':jnimodule', ':ndkmodule', ':rxjavademo', ':myapplication', ':dimodule'

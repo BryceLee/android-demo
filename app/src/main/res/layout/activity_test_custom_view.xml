@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/colorAccent"
+  tools:context="textjunit.lizhongxin.demo.ui.TestCustomViewActivity">
+  <textjunit.lizhongxin.demo.widget.RangeSeekBar2
+    android:id="@+id/rangSeekBar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bq_px_144"
+    android:layout_centerInParent="true"
+    android:background="@android:color/transparent"
+    android:visibility="gone"
+    app:leftThumb="@mipmap/video_thumb_framebar_left"
+    app:limitThumbRange="true"
+    app:orientation="horizontal"
+    app:progressMax="100"
+    app:progressMin="0"
+    app:progressStep="1.0"
+    app:rightThumb="@mipmap/video_thumb_framebar_right"
+    app:scroll_ball="@mipmap/video_thums_scroll_ball"
+    app:scroll_ball_radius="@dimen/bq_px_44"
+    app:selectRangeBg="@drawable/rangegradient"
+    app:thumbHeight="@dimen/bq_px_100"
+    app:thumbWidth="@dimen/bq_px_40"
+    app:thumbs="2"
+    />
+  <ImageView
+    android:id="@+id/iv"
+    android:layout_width="@dimen/bq_px_121"
+    android:layout_height="@dimen/bq_px_121"
+    android:scaleType="fitXY"
+    android:src="@mipmap/video_thumb_framebar_right"
+    android:transitionName="test"/>
+</RelativeLayout>

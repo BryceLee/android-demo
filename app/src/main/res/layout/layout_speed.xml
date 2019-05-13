@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="@dimen/bq_px_216"
+  android:layout_height="wrap_content"
+  >
+  <com.flyco.roundview.RoundRelativeLayout
+    android:layout_width="@dimen/bq_px_216"
+    android:layout_height="@dimen/bq_px_50"
+    android:gravity="center"
+    android:textColor="#ffffff"
+    app:rv_backgroundColor="#16151A"
+    app:rv_cornerRadius="@dimen/bq_px_10"
+    >
+  </com.flyco.roundview.RoundRelativeLayout>
+  <com.flyco.roundview.RoundRelativeLayout
+    android:id="@+id/viewSelect"
+    android:layout_width="@dimen/bq_px_108"
+    android:layout_height="@dimen/bq_px_50"
+    app:rv_backgroundColor="#ffffff"
+    app:rv_cornerRadius="@dimen/bq_px_10"></com.flyco.roundview.RoundRelativeLayout>
+  <TextView
+    android:id="@+id/left"
+    android:layout_width="@dimen/bq_px_108"
+    android:layout_height="@dimen/bq_px_50"
+    android:gravity="center"
+    android:text="正常"
+    android:textColor="#16151A"
+    android:textSize="@dimen/bq_px_28"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toLeftOf="@+id/right"/>
+  <TextView
+    android:id="@+id/right"
+    android:layout_width="@dimen/bq_px_108"
+    android:layout_height="@dimen/bq_px_50"
+    android:gravity="center"
+    android:text="加速"
+    android:textColor="#ffffff"
+    android:textSize="@dimen/bq_px_28"
+    app:layout_constraintLeft_toRightOf="@+id/left"
+    app:layout_constraintRight_toRightOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="textjunit.lizhongxin.demo">
+
+  <uses-permission android:name="android.permission.CAMERA"/>
+  <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+  <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+  <!-- 打开关闭sdcard的权限 -->
+  <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
+
+  <application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:name=".base.BaseApplication"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <activity android:name=".ui.MainActivity">
+    </activity>
+    <activity android:name=".ReflectActivity">
+    </activity>
+    <activity android:name=".ui.VideoViewActivity">
+    </activity>
+    <activity android:name=".ui.TimePickerActivity">
+    </activity>
+    <activity android:name=".ui.ARouterDemoActivity">
+    </activity>
+    <activity android:name=".ui.ProgressActivity">
+    </activity>
+    <activity android:name=".ui.RecordProgressActivity">
+    </activity>
+    <activity
+      android:name=".ui.AdapterScreenActivity"
+      android:theme="@style/Theme.Design.NoActionBar">
+    </activity>
+    <activity android:name=".av.AVActivity">
+    </activity>
+    <activity android:name=".av.ExoplayerActivity">
+    </activity>
+    <activity android:name=".di.DIActivity">
+    </activity>
+    <activity
+      android:name=".ui.TestCustomViewActivity"
+      android:theme="@style/TestAnimations">
+
+    </activity>
+    <activity
+      android:name=".ui.TestAnimeActivity"
+      android:theme="@style/Test">
+    </activity>
+    <activity android:name=".ui.AsynctaskActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+  </application>
+
+</manifest>

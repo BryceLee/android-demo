@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context="textjunit.lizhongxin.demo.av.ExoplayerActivity">
+
+  <com.google.android.exoplayer2.ui.PlayerView
+    android:id="@+id/playview"
+    android:layout_width="@dimen/bq_px_530"
+    android:layout_height="@dimen/bq_px_530"></com.google.android.exoplayer2.ui.PlayerView>
+  <EditText
+    android:id="@+id/et"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@+id/playview"/>
+  <Button
+    android:id="@+id/getkeyframe"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="getkeyframenum"
+    android:text="getKeyFrameNum"
+    app:layout_constraintTop_toBottomOf="@+id/et"/>
+  <Button
+    android:id="@+id/replay"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="replay"
+    android:text="replay"
+    app:layout_constraintTop_toBottomOf="@+id/getkeyframe"/>
+  <Button
+    android:id="@+id/reSetPlayClip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="reSetPlayClip"
+    android:text="reSetPlayClip"
+    app:layout_constraintTop_toBottomOf="@+id/replay"/>
+  <Button
+    android:id="@+id/seek"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="seek"
+    android:text="seek"
+    app:layout_constraintTop_toBottomOf="@+id/reSetPlayClip"/>
+  <Button
+    android:id="@+id/seek2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="seek2"
+    android:text="seek2"
+    app:layout_constraintTop_toBottomOf="@+id/seek"/>
+</android.support.constraint.ConstraintLayout>

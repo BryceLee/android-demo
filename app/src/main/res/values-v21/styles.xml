@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="TestAnimations" parent="@style/Theme.AppCompat.Light.NoActionBar">
+  </style>
+
+  <style name="Test" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="android:windowContentTransitions">true</item>
+    <item name="android:windowBackground">@color/translucent</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowAnimationStyle">@style/previewAnime</item>
+  </style>
+
+  <style name="previewAnime" parent="@android:style/Animation.Activity">
+    <item name="android:activityOpenEnterAnimation">@anim/preview_in</item>
+    <!--<item name="android:activityOpenExitAnimation">@anim/preview_out</item>-->
+    <!--<item name="android:activityCloseEnterAnimation">@anim/preview_in</item>-->
+    <item name="android:activityCloseExitAnimation">@anim/preview_out</item>
+    <!--<item name="android:windowEnterAnimation">@anim/preview_in</item>-->
+    <!--<item name="android:windowExitAnimation">@anim/preview_out</item>-->
+  </style>
+</resources>
