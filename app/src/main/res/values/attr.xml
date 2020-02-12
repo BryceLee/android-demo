@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <declare-styleable name="SeckillCountDownLikePoision">
+        <attr name="seckill_time_bg" format="color" />
+        <attr name="seckill_time_text_color" format="color" />
+        <attr name="seckill_time_text_size" format="dimension"/>
+        <attr name="seckill_time_bg_size" format="dimension" />
+        <attr name="seckill_time_margin" format="dimension"/>
+        <attr name="seckill_colon_drawable" format="reference" />
+    </declare-styleable>
     <declare-styleable name="RecordButtonStyle">
         <attr name="diameter_VideoBtn_Normal" format="dimension|reference" />
         <attr name="diameter_VideoBtn_Down" format="dimension|reference" />

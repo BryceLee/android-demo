@@ -5,18 +5,26 @@
       <module fileurl="file://$PROJECT_DIR$/android-demo.iml" filepath="$PROJECT_DIR$/android-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/avdemo/avdemo.iml" filepath="$PROJECT_DIR$/avdemo/avdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bindermodule/bindermodule.iml" filepath="$PROJECT_DIR$/bindermodule/bindermodule.iml" />
       <module fileurl="file://$PROJECT_DIR$/bmodule/bmodule.iml" filepath="$PROJECT_DIR$/bmodule/bmodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/couponview/couponview.iml" filepath="$PROJECT_DIR$/couponview/couponview.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/dimodule/dimodule.iml" filepath="$PROJECT_DIR$/dimodule/dimodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/floatingbutton/floatingbutton.iml" filepath="$PROJECT_DIR$/floatingbutton/floatingbutton.iml" />
       <module fileurl="file://$PROJECT_DIR$/httpdemo/httpdemo.iml" filepath="$PROJECT_DIR$/httpdemo/httpdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/javademo/javademo.iml" filepath="$PROJECT_DIR$/javademo/javademo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jetpacklearning/jetpacklearning.iml" filepath="$PROJECT_DIR$/jetpacklearning/jetpacklearning.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jnimodule/jnimodule.iml" filepath="$PROJECT_DIR$/jnimodule/jnimodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/labelview/labelview.iml" filepath="$PROJECT_DIR$/labelview/labelview.iml" />
       <module fileurl="file://$PROJECT_DIR$/lanuchmode/lanuchmode.iml" filepath="$PROJECT_DIR$/lanuchmode/lanuchmode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_service/module_service.iml" filepath="$PROJECT_DIR$/module_service/module_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modulehandler/modulehandler.iml" filepath="$PROJECT_DIR$/modulehandler/modulehandler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modulerecycleview/modulerecycleview.iml" filepath="$PROJECT_DIR$/modulerecycleview/modulerecycleview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multiprocessdemo/multiprocessdemo.iml" filepath="$PROJECT_DIR$/multiprocessdemo/multiprocessdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-application/myapplication.iml" filepath="$PROJECT_DIR$/my-application/myapplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/ndkmodule/ndkmodule.iml" filepath="$PROJECT_DIR$/ndkmodule/ndkmodule.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxjavademo/rxjavademo.iml" filepath="$PROJECT_DIR$/rxjavademo/rxjavademo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testintentmodule/testintentmodule.iml" filepath="$PROJECT_DIR$/testintentmodule/testintentmodule.iml" />
       <module fileurl="file://$PROJECT_DIR$/windowsoftinputdemo/windowsoftinputdemo.iml" filepath="$PROJECT_DIR$/windowsoftinputdemo/windowsoftinputdemo.iml" />
     </modules>
   </component>

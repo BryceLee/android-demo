@@ -11,23 +11,26 @@
     android:theme="@style/AppTheme">
     <activity android:name=".BaseActivity">
     </activity>
-    <activity
-      android:launchMode="singleInstance"
-      android:name=".BActivity">
-    </activity>
-    <activity
-      android:launchMode="standard"
-      android:name=".CActivity">
-    </activity>
-    <activity android:name=".DActivity">
-    </activity>
-    <activity android:name=".AActivity">
+    <activity android:name=".AActivity"
+      >
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
 
         <category android:name="android.intent.category.LAUNCHER"/>
       </intent-filter>
     </activity>
+    <activity
+      android:name=".BActivity"
+      >
+    </activity>
+    <activity
+      android:name=".CActivity"
+      android:launchMode="singleInstance">
+    </activity>
+    <activity android:name=".DActivity"
+      android:launchMode="singleInstance">
+    </activity>
+
   </application>
 
 </manifest>

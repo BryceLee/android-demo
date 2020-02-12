@@ -13,7 +13,6 @@
        android:layout_height="@dimen/bq_px_0"
        android:text="btn"/>
    <android.support.design.widget.FloatingActionButton
-
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:layout_gravity="center|bottom"
@@ -22,4 +21,14 @@
        app:rippleColor="#33728dff"
        app:elevation="6dp"
        />
+   <textjunit.lizhongxin.demo.widget.SeckillCountDownLikePoision
+     android:layout_centerInParent="true"
+     android:id="@+id/positioncountdown"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     app:seckill_time_bg="@android:color/holo_blue_bright"
+     app:seckill_time_bg_size="48dp"
+     app:seckill_time_text_color="@color/white"
+     app:seckill_time_text_size="24sp"/>
 </RelativeLayout>

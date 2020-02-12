@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="LeeCouponView">
+    <attr name="lee_coupon_semicircle_radius" format="dimension|reference"></attr>
+    <attr name="lee_coupon_divider_circle_radius" format="dimension|reference"></attr>
+    <attr name="lee_coupon_corner_radius" format="dimension|reference"></attr>
+    <attr name="lee_coupon_divider_marginleft_percent" format="integer|reference"></attr>
+    <attr name="lee_coupon_bg_color" format="color"></attr>
+  </declare-styleable>
+</resources>

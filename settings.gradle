@@ -1,1 +1,4 @@
-include ':app', ':bmodule', ':mylibrary', ':demo', ':javademo', ':avdemo', ':lanuchmode', ':httpdemo', ':jetpacklearning', ':windowsoftinputdemo', ':jnimodule', ':ndkmodule', ':rxjavademo', ':myapplication', ':dimodule'
+include ':app', ':bmodule', ':mylibrary', ':demo', ':couponview', ':floatingbutton',
+        ':javademo', ':avdemo', ':lanuchmode', ':httpdemo',
+        ':jetpacklearning', ':windowsoftinputdemo', //':jnimodule',
+        ':ndkmodule', ':rxjavademo', ':myapplication', ':dimodule', ':modulerecycleview', ':modulehandler', ':testintentmodule', ':labelview', ':module_service', ':multiprocessdemo', ':bindermodule'

@@ -19,6 +19,7 @@ public class BActivity extends BaseActivity {
       public void onClick(View v) {
         Intent intent = new Intent(BActivity.this, CActivity.class);
         startActivity(intent);
+//        finish();
       }
     });
   }

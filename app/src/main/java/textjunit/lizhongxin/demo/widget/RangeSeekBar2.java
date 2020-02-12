@@ -709,7 +709,7 @@ public class RangeSeekBar2 extends View {
   /**
    * Determines the width of this view
    *
-   * @param measureSpec A measureSpec packed into an int
+   * @param measureSpec A_Injector_Entity measureSpec packed into an int
    * @return The width of the view, honoring constraints from measureSpec
    */
   private int measureWidth(int measureSpec) {
@@ -743,7 +743,7 @@ public class RangeSeekBar2 extends View {
   /**
    * Determines the height of this view
    *
-   * @param measureSpec A measureSpec packed into an int
+   * @param measureSpec A_Injector_Entity measureSpec packed into an int
    * @return The height of the view, honoring constraints from measureSpec
    */
   private int measureHeight(int measureSpec) {

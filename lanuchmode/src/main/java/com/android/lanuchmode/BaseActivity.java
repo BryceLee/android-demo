@@ -12,48 +12,49 @@ public class BaseActivity extends AppCompatActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_base);
+    Log.d("Tag:","onCreate()"+getClassMessage());
   }
 
   @Override
   protected void onStart() {
     super.onStart();
-    Log.d("Tag:","onStart"+getClassMessage());
+    Log.d("Tag:","onStart()"+getClassMessage());
   }
 
   @Override
   protected void onResume() {
     super.onResume();
-    Log.d("Tag:","onResume"+getClassMessage());
+    Log.d("Tag:","onResume()"+getClassMessage());
   }
 
   @Override
   protected void onRestart() {
     super.onRestart();
-    Log.d("Tag:","onRestart"+getClassMessage());
+    Log.d("Tag:","onRestart()"+getClassMessage());
   }
 
   @Override
   protected void onNewIntent(Intent intent) {
     super.onNewIntent(intent);
-    Log.d("Tag:","onNewIntent"+getClassMessage());
+    Log.d("Tag:","onNewIntent()"+getClassMessage());
   }
 
   @Override
   protected void onPause() {
     super.onPause();
-    Log.d("Tag:","onPause"+getClassMessage());
+    Log.d("Tag:","onPause()"+getClassMessage());
   }
 
   @Override
   protected void onStop() {
     super.onStop();
-    Log.d("Tag:","onStop"+getClassMessage());
+    Log.d("Tag:","onStop()"+getClassMessage());
   }
 
   @Override
   protected void onDestroy() {
     super.onDestroy();
-    Log.d("Tag:","onDestroy"+getClassMessage());
+    Log.d("Tag:","onDestroy()"+getClassMessage());
   }
   public String getClassMessage(){
     return " "+getClass();

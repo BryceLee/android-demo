@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="LabelView">
+    <attr name="startXPercent"></attr>
+    <attr name="startYPercent"></attr>
+    <attr name="middleXPercent"></attr>
+    <attr name="middleYPercent"></attr>
+    <attr name="finalXPercent"></attr>
+    <attr name="finalYPercent"></attr>
+  </declare-styleable>
+</resources>

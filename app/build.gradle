@@ -77,5 +77,7 @@ dependencies {
     implementation 'com.lahm.library:easy-protector-release:latest.release'
 //    api 'com.google.dagger:dagger-android-support:2.15' // if you use the support libraries
 //    annotationProcessor 'com.google.dagger:dagger-android-processor:2.7'
-
+    implementation 'com.alibaba:fastjson:1.2.58'
+    implementation rxandroid2
+//    implementation 'com.alibaba:fastjson:1.1.71.android'
 }

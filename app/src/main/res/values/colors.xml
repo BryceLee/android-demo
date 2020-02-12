@@ -4,4 +4,33 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="translucent">#00000000</color>
+    <!--  主色调，C1  -->
+    <color name="primary">#1c232c</color>
+    <color name="primary_alpha">#cc1c232c</color>
+    <color name="primary_press">#3e444b</color>
+    <!--  副色调，C2  -->
+    <color name="goods_detail_vip1">#fff9f2</color>
+    <color name="goods_detail_vip2">#fff9f2</color>
+    <color name="color_1">#e5c7a1</color>
+    <color name="color_2">#cca066</color>
+    <color name="color_2_press">#8a7535</color>
+    <color name="color_2_deep">#775629</color>
+    <color name="color_2_alpha_20">#148a7535</color>
+    <color name="y_fff9f2">#fff9f2</color>
+    <color name="y_cca066">#cca066</color>
+    <color name="sort_child_sort_tab_selector">#cca066</color>
+    <color name="sort_tab_text_selector">#000000</color>
+    <color name="goods_detail_price">#cca066</color>
+    <color name="goods_detail_commend_see_all">#cca066</color>
+    <color name="aftersale_order_state">#cca066</color>
+    <color name="match_tv">#ffd399</color>
+    <!--   C3   -->
+    <color name="color_3">#29738f</color>
+    <color name="color_3_press">#1f627b</color>
+    <!--  C4  -->
+    <color name="color_4">#3c424a</color>
+    <color name="color_4_press">#595e65</color>
+    <color name="default_pic_bg">#eaebf1</color>
+    <color name="default_bg">#f7f7f7</color>
+    <color name="white">#ffffff</color>
 </resources>
